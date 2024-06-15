@@ -6,11 +6,6 @@ services:
     envVars:
       - key: SPRING_PROFILES_ACTIVE
         value: prod
-      - key: DATABASE_URL
-        value: your-database-url
       - key: SPRING_DATA_MONGODB_URI
         value: mongodb://localhost:27017/numberdb
-      - key: SPRING_DEVTOOLS_RESTART_ENABLED
-        value: "true"
-      - key: SPRING_DEVTOOLS_LIVERELOAD_ENABLED
-        value: "true"
+      # Add more environment variables as needed
